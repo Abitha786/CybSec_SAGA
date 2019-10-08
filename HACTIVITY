@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HACTIVITY</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .hero-image{
+    background: url(https://www.brivo.com/wp-content/uploads/2018/05/cybersecurity-physical-security-blog.png) no-repeat center fixed;
+    background-size: cover;
+  }
+  .dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 24px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightgrey;
+    min-width: 200px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 16px 24px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: white;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: grey;}
+
+
+/* Style the body */
+body {
+  color: #fff;
+  margin: 0;
+}
+#grad1{
+  height: 300px;
+  background-color:#05395C;
+  background-image: linear-gradient(#05395C,#35F910);
+}
+p{
+  font-size: 200%;
+  font-family: Courier New;
+}
+h4{
+  font-size: 100%;
+  font-family: Courier New;
+  border-top: 2px solid #35F910;
+  text-align: center;
+  color: black;
+}
+h1{
+  font-size: 300%;
+  text-shadow: 4px 4px #1abc9c;
+  font-family: serif;
+  border-bottom: 2px solid #35F910;
+}
+h2{
+  font-size: 250%;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+/* create three equal columns that float next to each other */
+.column{
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* clear floats after the columns */
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+ /* responsive layout makes the three columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 600px)
+ {
+  .column{
+    width:100%;
+  }
+ 
+  </style>
+</head>
+<body>
+  <div class="hero-image">
+    <div class="hero-text">
+<div class="header">
+  <h1>HACTIVITIES</h1>
+</div>
+<div class="row">
+  <div class="column">
+    <h2>PROJECTS:</h2>
+    <div class="card">
+            <div class="face face1">
+                <div class="content">
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Some of the projects that we have worked on are:</p>
+                    <p>1.</p>
+                      <p>2.</p>
+                      <p>Further details on our projects are mentioned below.</p>
+                </div>
+            </div>
+        </div>
+  </div>
+
+  <div class="column">
+    <h2>COMPETITIONS:</h2>
+    <div class="card">
+            <div class="face face1">
+                <div class="content">
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>We have participated in numerous competitions and also excel at it.most importantly we work on our short comings so we are prepared in that field for the next competition.</p>
+                </div>
+            </div>
+        </div>
+  </div>
+  <div class="columns">
+    <h2>TEAM MEETINGS:</h2>
+    <div class="card">
+            <div class="face face1">
+                <div class="content">
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>The team meets a minimum of three times a week to discuss their progress and clear doubts among themselves.</p>
+                </div>
+            </div>
+        </div>
+  </div>
+</div>
+</div>
+</div>
+<div id="grad1">
+  <div>
+  <h2 style="color: black;">OUR PROJECTS IN DETAIL:</h2>
+  <p style="color: black;">1.</p>
+  <p style="color: black;">2.</p>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">HELP FOR BEGINNERS</button>
+  <div class="dropdown-content">
+    <a href="https://www.w3schools.com/">W3SCHOOLS</a>
+    <a href="https://www.hackthebox.eu/">HACK THE BOX</a>
+    <a href="https://www.geeksforgeeks.org/">GEEKS FOR GEEKS</a>
+  </div>
+</div>
+</div>
+<div class="hero-image">
+  <div class="hero-text">
+<h2 style="color: #fff;">If you find our work interesting,don't wait.Go on to become an ethical hacker too.The mentioned websites may be of help to you.</h2>
+<h4 style="color: #fff;font-family: cursive;">To know more about our projects and activities,contact through the below mentioned means.We would love to communicate with you.</h4>
+  </div>
+</div>
+</div>
+</div>
+</body>
+</html>
