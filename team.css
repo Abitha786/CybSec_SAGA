@@ -1,48 +1,54 @@
 
 body {
-  background-color :#000000;
-  color :#ffa500;
+     background-color :#000000;
+  
   background-image: url("cybseclogo.jpeg");
   background-repeat: no-repeat;
   background-position: 40% 100%;
 
   background-attachment: fixed;
   background-size: 20% 75%;
-  text-transform: uppercase;
+  
 
 }
 
 h1
 {
-  color:white;
-  text-shadow: 3px 2px blue;
+  color:#df1e1e ;
+  text-shadow: 10px 2px #ffd117;;
+  margin-top:-20%;
+  margin-right:5%;
+  font-size:450%;
 }
 
-   #m
-   {
-   	direction:"right";
-   }
+   
 footer.blockquote-footer
 {
-	color: #df1e1e;
-	float:right;
-  
+	color: #ffd117;
+	float:left;
   font-weight: 600;
-  margin-right:5px;
+  margin-left:3%;
+  text-shadow: 3px 2px green;
+
 }
 div.p1
 {
   
   font-size:90%;
   font-weight: 700;
-   text-shadow: 3px 2px blue;
+   text-shadow: 3px 2px green;
     border-color: yellow;
-    color:  #df1e1e;
+    color: #ffd117;
     text-transform: uppercase;
     border-style: dashed dashed dashed dashed ;
-  
-    
+   margin-left:30px;
+
+   width:30%;
+  margin: 20px;
+
 }
+
+
 hr
 {
   border-top: 1px dashed blue;
@@ -86,12 +92,13 @@ table.one
       color: #083F39;
       filter: brightness(1.8);
       font-weight: 600;
+      text-transform: uppercase;
 
    }
 
    h2.mem,li.mem
    {
-     color: #ffd117;
-      
+     color: #df1e1e ;
+      text-transform: uppercase;
       font-weight: 600;
    }
