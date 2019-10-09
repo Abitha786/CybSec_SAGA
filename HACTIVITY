@@ -51,7 +51,7 @@ body {
 #grad1{
   height: 300px;
   background-color:#05395C;
-  background-image: linear-gradient(#05395C,#35F910);
+  background-image: linear-gradient(#05395C,#fff);
 }
 p{
   font-size: 200%;
@@ -60,7 +60,7 @@ p{
 h4{
   font-size: 100%;
   font-family: Courier New;
-  border-top: 2px solid #35F910;
+  border-top: 2px solid #fff;
   text-align: center;
   color: black;
 }
@@ -68,7 +68,7 @@ h1{
   font-size: 300%;
   text-shadow: 4px 4px #1abc9c;
   font-family: serif;
-  border-bottom: 2px solid #35F910;
+  border-bottom: 2px solid #fff;
 }
 h2{
   font-size: 250%;
