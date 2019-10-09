@@ -1,16 +1,4 @@
 
-body {
-     background-color :#000000;
-  
-  background-image: url("cybseclogo.jpeg");
-  background-repeat: no-repeat;
-  background-position: 40% 100%;
-
-  background-attachment: fixed;
-  background-size: 20% 75%;
-  
-
-}
 
 h1
 {
@@ -24,11 +12,11 @@ h1
    
 footer.blockquote-footer
 {
-	color: #ffd117;
+	color: green;
 	float:left;
   font-weight: 600;
   margin-left:3%;
-  text-shadow: 3px 2px green;
+  text-shadow: 3px 2px #ffd117;
 
 }
 div.p1
@@ -36,9 +24,9 @@ div.p1
   
   font-size:90%;
   font-weight: 700;
-   text-shadow: 3px 2px green;
-    border-color: yellow;
-    color: #ffd117;
+   text-shadow: 3px 2px #ffd117;
+    border-color: orange;
+    color: green;
     text-transform: uppercase;
     border-style: dashed dashed dashed dashed ;
    margin-left:30px;
