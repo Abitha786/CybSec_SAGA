@@ -14,7 +14,7 @@
     color: white;
     padding: 16px;
     font-size: 24px;
-    border: none;
+    border: solid #05395C;
 }
 
 .dropdown {
@@ -27,7 +27,7 @@
     display: none;
     position: absolute;
     background-color: lightgrey;
-    min-width: 200px;
+    min-width: 305px;
     z-index: 1;
 }
 
@@ -73,6 +73,11 @@ h1{
 h2{
   font-size: 250%;
 }
+h3{
+color:#fff;
+font-size:200%;
+font-family:Courier New;
+}
 
 /* Header/Logo Title */
 .header {
@@ -115,47 +120,29 @@ h2{
   <div class="column">
     <h2>PROJECTS:</h2>
     <div class="card">
-            <div class="face face1">
-                <div class="content">
-                </div>
-            </div>
-            <div class="face face2">
                 <div class="content">
                     <p>Some of the projects that we have worked on are:</p>
                     <p>1.</p>
                       <p>2.</p>
                       <p>Further details on our projects are mentioned below.</p>
                 </div>
-            </div>
         </div>
   </div>
 
   <div class="column">
     <h2>COMPETITIONS:</h2>
     <div class="card">
-            <div class="face face1">
-                <div class="content">
-                </div>
-            </div>
-            <div class="face face2">
                 <div class="content">
                     <p>We have participated in numerous competitions and also excel at it.most importantly we work on our short comings so we are prepared in that field for the next competition.</p>
                 </div>
-            </div>
         </div>
   </div>
   <div class="columns">
     <h2>TEAM MEETINGS:</h2>
     <div class="card">
-            <div class="face face1">
-                <div class="content">
-                </div>
-            </div>
-            <div class="face face2">
                 <div class="content">
                     <p>The team meets a minimum of three times a week to discuss their progress and clear doubts among themselves.</p>
                 </div>
-            </div>
         </div>
   </div>
 </div>
@@ -179,7 +166,7 @@ h2{
 </div>
 <div class="hero-image">
   <div class="hero-text">
-<h2 style="color: #fff;">If you find our work interesting,don't wait.Go on to become an ethical hacker too.The mentioned websites may be of help to you.</h2>
+<h3>If you find our work interesting,don't stop here.Go on to become an ethical hacker too.The mentioned websites may be of help to you.</h2>
 <h4 style="color: #fff;font-family: cursive;">To know more about our projects and activities,contact through the below mentioned means.We would love to communicate with you.</h4>
   </div>
 </div>
