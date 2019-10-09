@@ -50,19 +50,19 @@ body, html {
   background-size: cover;
 }
 
-.about, .hacktivity{
+#about, #hacktivity{
   width: 900px;
   height:500px;
   margin: 0 auto;
   padding: 50px;
 }
 
-.about h1{
+#about h1{
   font-family: 'Roboto Mono', sans-serif;
   font-size: 50px;
 }
 
-.about p{
+#about p{
   font-family: 'Roboto Mono', sans-serif;
   font-size: 25px;
 }
