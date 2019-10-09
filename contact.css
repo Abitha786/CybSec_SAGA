@@ -1,0 +1,28 @@
+html,body{
+  height:100%;
+  color:white ;
+}
+.container-fluid{
+
+  height:70%;
+  width:100%;
+  background-color: #333 ;
+  font-size:;
+  margin:0 auto;
+  color: white ;
+   background-blend-mode: lighten;
+
+}
+
+.col-sm-5{
+  font-family:  'Acme', sans-serif!important;
+  font-size:25px;
+}
+
+h1{
+  font-size:30px;
+  color:#FFFFFF !important;
+  font-family:  'Acme', sans-serif!important;
+
+}
+
