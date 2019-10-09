@@ -49,6 +49,14 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.parallax4 {
+  background-image: url("https://fw-d7-freedomworks-org.s3.amazonaws.com/field/image/Tech.jpg");
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 #about, #hacktivity{
   width: 900px;
@@ -82,4 +90,31 @@ body, html {
 
 .welcome h1{
   font-size:100px;
+}
+#contact{
+  height:100%;
+  color:white ;
+}
+#contact .container-fluid{
+
+  height:70%;
+  width:100%;
+  background-color: #333 ;
+  font-size:;
+  margin:0 auto;
+  color: white ;
+   background-blend-mode: lighten;
+
+}
+
+#contact .col-sm-5{
+  font-family:  'Roboto Mono', sans-serif!important;
+  font-size:25px;
+}
+
+#contact h1{
+  font-size:30px;
+  color:#FFFFFF !important;
+  font-family:  'Roboto Mono', sans-serif!important;
+
 }
