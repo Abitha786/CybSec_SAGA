@@ -7,12 +7,19 @@ body{
 	font-family: sans-serif;
 	font-weight: bold;
 }
+
 .navbar-brand {
-	text-align: center; }
-.navbar-nav li a{
-	color: #fff !important;
-font-weight: 600;
+	text-align: center;
 }
+.navbar-nav li a{
+	color: white !important;
+  font-weight: 600;
+}
+
+.nav-item:hover{
+	background-color: black;
+}
+
 
 body, html {
   height: 100%;
@@ -49,28 +56,21 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.parallax4 {
-  background-image: url("https://fw-d7-freedomworks-org.s3.amazonaws.com/field/image/Tech.jpg");
-  height: 600px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
-#about, #hacktivity{
+#about, #team{
   width: 900px;
   height:500px;
   margin: 0 auto;
   padding: 50px;
 }
 
-#about h1{
+#about h1,#team h1{
   font-family: 'Roboto Mono', sans-serif;
   font-size: 50px;
+	font-weight: bold;
 }
 
-#about p{
+#about p,#team p{
   font-family: 'Roboto Mono', sans-serif;
   font-size: 25px;
 }
@@ -91,6 +91,30 @@ body, html {
 .welcome h1{
   font-size:100px;
 }
+
+#team{
+padding:150px;
+text-align:center;
+}
+
+#team .button {
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+	border-radius: 5px;
+	font-family: 'Roboto Mono', sans-serif;
+}
+
+#team .button:hover {
+  background-color: black;
+	color: lime;
+	text-decoration: none;
+}
+
 #contact{
   height:100%;
   color:white ;
@@ -103,7 +127,7 @@ body, html {
   font-size:;
   margin:0 auto;
   color: white ;
-   background-blend-mode: lighten;
+  background-blend-mode: lighten;
 
 }
 
